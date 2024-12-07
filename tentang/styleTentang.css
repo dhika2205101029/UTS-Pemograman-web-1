@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav{
+    color: beige;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    background-color: rgb(236, 66, 94);
+    position: fixed;
+    width: 100%;
+}
+.nav a{
+    color: beige;
+}
+.nav a:hover{
+    color: rgb(10, 10, 10);
+}
+.data-list{
+    margin-left: 40%;
+}
+
+.data-list li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.fa-chevron-down{
+    transform: rotate(0deg);
+    transition: 300ms;
+}
+
+.Wisata:hover .fa-chevron-down{
+    transform: rotate(-90deg);
+}
+
+.Open Trip{
+    margin-left: 30px;
+}
+
+.list{
+    display: none;
+    background-color: rgb(218, 85, 107);
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.list li{
+    display: block;
+    margin-bottom: 10px;
+    color: bisque;   
+}
+
+.data-list a{
+    text-decoration: none;
+}
+
+.Wisata:hover .list{
+    display: block;
+}
+
+.list li:hover {
+    color: rgb(9, 9, 9);
+}
+
+/*  header==========================*/
+
+.header{
+    display: flex;
+}
+
+.des-header{
+    width: 45%;
+    margin: auto;
+    color: rgb(218, 85, 107) ;
+}
+.des-header h1{
+    font-weight: 700;
+    font-size: 4rem;
+    width: 50%;
+}
+
+.gambar{
+    width: 50%;
+    height: 100vh;
+}
+
+.gambar img{
+    width: 100%;
+    height: 100%;
+}
+
+/* bg card====== */
+.bg-card{
+    padding-bottom: 30vh;
+    
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
+.des-card{
+    padding: 5px;
+    margin: auto;
+   
+}
+
+.des-card img{
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+.des-card h4{
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+.bg-card a{
+    text-decoration: none;
+}
+
+/* footer============ */
+.footer{
+    background-color: rgb(236, 66, 94);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    text-align: center;
+    color: beige;
+}
